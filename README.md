@@ -1,5 +1,5 @@
 <!-- Bonjour, nous avons choisi de rédiger notre fichier README en format Markdown (pour faire pro !). Par consèquent, il sera plus simple et surtout plus agréable à visualiser depuis GitHub ou depuis votre IDE préféré (CLion par exemple). Merci et bonne consultation ! -->
-<!-- Voici un lien vers notre dépôt GitHub : https://github.com/Adri1-rvt/ESTF---Mission-MARC -->
+<!-- Voici un lien vers notre dépôt GitHub : https://github.com/Adri1-rvt/Mission-MARC -->
 
 <h1 align="center">
   <br>
@@ -52,7 +52,7 @@ Une fois le code lancé, laissez-vous guider par notre intuitive (et magnifique)
 
 ## Télécharger
 
-Vous pouvez [télécharger](https://github.com/Adri1-rvt/MARC-Project) la dernière version du programme de MARC pour Windows, MacOS et Linux via GitHub.
+Vous pouvez [télécharger](https://github.com/Adri1-rvt/Mission-MARC) la dernière version du programme de MARC pour Windows, MacOS et Linux via GitHub.
 <br>Pour cela, ouvrez le lien ci-dessus, puis cliquez sur le bouton vert en haut à droite de la page GitHub "Code".
 Sélectionnez ensuite "Download ZIP".
 <br>Une fois votre fichier ZIP téléchargé, il ne vous reste plus qu'à le décompresser (avec WinRaR ou un tool natif de votre OS par exemple) pour pouvoir utiliser le code source !
