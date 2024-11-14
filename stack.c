@@ -3,7 +3,7 @@
 //
 
 /**==========DIRECTIVES DU PREPROCESSEUR==========*/
-#include <malloc.h>
+#include <stdlib.h>
 #include <assert.h>
 #include "stack.h"
 

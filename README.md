@@ -3,7 +3,7 @@
 
 <h1 align="center">
   <br>
-  <a href="http://www.amitmerchant.com/electron-markdownify"><img src="logo.png" alt="Markdownify" width="300"></a>
+  <a href=""><img src="logo.png" alt="Markdownify" width="300"></a>
   <br>
   Mission MARC par Thomas, Noé & Adrien
   <br>
