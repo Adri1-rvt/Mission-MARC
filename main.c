@@ -10,7 +10,14 @@ int main() {
 
     // start_menu();
 
-    t_map map = createMapFromFile("..\\maps\\example1.map");
+    #if defined(_WIN32) || defined(_WIN64)
+        t_map map = createMapFromFile("..\\maps\\example1.map");
+    #elif defined(__APPLE__) || defined(__MACH__)
+        t_map map = createMapFromFile("../maps/example1.map");
+    #else
+        printf("Système d'exploitation non reconnu.\n");
+    #endif
+
     printf("Carte d'exemple de dimensions %d x %d :\n", map.y_max, map.x_max);
     for (int i = 0; i < map.y_max; i++)
     {
