@@ -1,5 +1,4 @@
 <!-- Bonjour, nous avons choisi de rédiger notre fichier README en format Markdown (pour faire pro !). Par consèquent, il sera plus simple et surtout plus agréable à visualiser depuis GitHub ou depuis votre IDE préféré (CLion par exemple). Merci et bonne consultation ! -->
-<!-- Voici un lien vers notre dépôt GitHub : https://github.com/Adri1-rvt/Mission-MARC -->
 
 <h1 align="center">
   <br>
@@ -9,8 +8,6 @@
   <br>
 </h1>
 
-<h4 align="center">Titre à venir</h4>
-
 <p align="center">
   <a href="#Présentation-du-projet">Présentation</a> •
   <a href="#Comment-utiliser">Comment utiliser</a> •
@@ -19,8 +16,36 @@
 </p>
 
 ## Présentation du projet
+CONTEXTE :
 
-A venir
+Le projet a pour objectif de permettre à MARC, un rover ayant été victime d'un dysfonctionnement sur MARS, de rentrer à une station base pour pouvoir se faire réparer. 
+Il a toujours son radar et son gyroscope pour lui permettre de se situer. 
+Il se repère donc par sa position et sa direction , parmi Nord, Sud, Est et Ouest. N'ayant plus qu'un nombre limité de mouvement (9 mouvements restants), MARC ne peut qu'en choisir 5 pour pouvoir rentrer à la base. 
+On a donc programmé le « meilleur choix possible » de déplacement, afin qu'il se rapproche au mieux de la base.
+
+FONCTIONALITES :
+
+Voici les fonctionnalités réalisées (dans les fichiers de même nom) :
+
+tree : 
+- Définition de la structure de l'arbre et des noeuds 
+- Création d'un noeud 
+- Construction d'un arbre n-aires 
+- Recherche de la valeur minimale de tout l'arbre
+
+node_queue : 
+- Création d'une fonction de file pour les noeuds 
+- Création d'une file vide 
+- Ajout d'un noeud dans la file 
+- Retirer un noeud de la file
+
+path : 
+- Recherche de la feuille de valeur minimale 
+- Parcours en largeur pour trouver tous les noeuds ayant la valeur minimale 
+- Calcul du coût total du chemin pour arriver à chaque noeud minimal 
+- Choix du noeud ayant le coût optimal 
+- Définition du chemin optimal 
+- Définir les mouvements à effectuer pour avoir le parcours le plus optimal
 
 ## Comment utiliser
 
@@ -58,17 +83,11 @@ Sélectionnez ensuite "Download ZIP".
 <br>Une fois votre fichier ZIP téléchargé, il ne vous reste plus qu'à le décompresser (avec WinRaR ou un tool natif de votre OS par exemple) pour pouvoir utiliser le code source !
 
 ## Compatibilité
-| Windows | MacOS | ChromeOS |   Linux    | 
-|:-------:|:-----:|:--------:|:----------:| 
-|   Compatible   |  Compatible  |   Compatible    | Compatible |
+| Windows | MacOS |   ChromeOS   |   Linux    | 
+|:-------:|:-----:|:------------:|:----------:| 
+|   Compatible   |  Compatible  | Incompatible | Compatible |
 > **Note**
 > Minimum version requise de CMake pour la bonne exécution du programme : VERSION 3.27
-
-## Catalogue des erreurs
-
-Notre code renvoi une erreur dans la console quand vous l'exécutez ? Pas de panique, voici le catalogue des erreurs qui vous permettra d'identifier la provenance du problème :
-- ERREUR 1 : Il y a eu une erreur lors de l'allocation mémoire
-
 
 ## Crédits
 
@@ -79,4 +98,4 @@ Ce logiciel a été développé par :
 - Thomas BOTTALICO (thomas.bottalico@efrei.net)
 
 N'hésitez pas à nous contacter par mail si vous avez besoin d'informations !
-Merci à notre prof Mr. LANDSCHOOT qui nous a aidé dans la réalisation de ce projet.
+<br>Merci à notre prof Mr. LANDSCHOOT qui nous a aidé dans la réalisation de ce projet.
