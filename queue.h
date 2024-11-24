@@ -6,8 +6,6 @@
 #ifndef UNTITLED1_QUEUE_H
 #define UNTITLED1_QUEUE_H
 #include "loc.h"
-#include <assert.h>
-#include <stdlib.h>
 
 
 /**==========PROTOTYPES DES FONCTIONS==========*/
