@@ -8,10 +8,6 @@
 
 #define COST_UNDEF 65535
 
-#include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
-
 
 /**==========PROTOTYPES DES FONCTIONS==========*/
 /**
@@ -55,7 +51,7 @@ t_map createMapFromFile(char *);
  * @param none
  * @return a standard map
  */
- t_map createTrainingMap();
+t_map createTrainingMap();
 
 /**
  * @brief display the map with characters
