@@ -9,7 +9,7 @@
 /**==========FONCTIONS==========*/
 void start_menu() {
 
-    // afficher le logo en caractères ascii de notre projet (parce qu'on est trop stylé !)
+    // afficher le logo ascii de notre projet (parce qu'on est trop stylé et ça fait pro !)
     printf("        .__              .__                                                \n"
            "  _____ |__| ______ _____|__| ____   ____       _____ _____ _______   ____  \n"
            " /     \\|  |/  ___//  ___/  |/  _ \\ /    \\     /     \\\\__  \\\\_  __ \\_/ ___\\ \n"
@@ -20,16 +20,15 @@ void start_menu() {
     // afficher les informations importantes du projet
     printf("\t==============================================================================================\n"
            "\tAuteurs         : Thomas B, Noe M, Adrien R                    |                             |\n"
-           "\tVersion         : v1.1                                         |           Appuyez           |\n"
-           "\tDerniere maj    : 13-11-2024                                   |             Sur             |\n"
-           "\tLien Github     : https://github.com/Adri1-rvt/---             |            Enter            |\n"
-           "\t===============================================================|            Pour             |\n"
-           "\tBienvenue sur Mission MARC, le projet C qui va vous            |           Lancer            |\n"
+           "\tVersion         : v1.1                                         |           Projet            |\n"
+           "\tDerniere maj    : 23-11-2024                                   |            De C             |\n"
+           "\tLien Github     : https://github.com/Adri1-rvt/                |            Efrei            |\n"
+           "\t===============================================================|            Grp F            |\n"
+           "\tBienvenue sur Mission MARC, le projet C qui va vous            |            2024             |\n"
            "\tpermettre de diriger MARC sur mars !                           |                             |\n"
            "\t==============================================================================================\n\n\n");
 
-    // mettre en pause le programme tant que l'utilisateur ne l'a pas lancé
-    getchar();
+    printf("Bienvenue sur notre Projet MARC !\n======================================================================================================\n\n");
 }
 
 
