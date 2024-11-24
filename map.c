@@ -3,6 +3,9 @@
 //
 
 /**==========DIRECTIVES DU PREPROCESSEUR==========*/
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
 #include "map.h"
 #include "loc.h"
 #include "queue.h"
