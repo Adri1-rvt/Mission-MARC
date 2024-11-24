@@ -7,6 +7,9 @@
 
 
 /**==========PROTOTYPES DES FONCTIONS==========*/
+// Fonction d'affichage du menu
+// Paraamètre : aucun
+// Retour : aucun
 void start_menu();
 
 
