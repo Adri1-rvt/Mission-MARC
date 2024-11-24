@@ -3,6 +3,8 @@
 //
 
 /**==========DIRECTIVES DU PREPROCESSEUR==========*/
+#include <assert.h>
+#include <stdlib.h>
 #include "queue.h"
 
 
