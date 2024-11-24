@@ -1,10 +1,9 @@
 cmake_minimum_required(VERSION 3.27)
-project(marc C)
+project(untitled1 C)
 
 set(CMAKE_C_STANDARD 11)
 
-add_executable(untitled1
-        main.c
+add_executable(untitled1 main.c
         loc.c
         loc.h
         moves.c
@@ -16,6 +15,11 @@ add_executable(untitled1
         stack.c
         stack.h
         tree.c
-        tree.h
+        path.c
+        path.h
+        node_queue.c
+        node_queue.h
         interface.c
-        interface.h)
+        interface.h
+        interface.c
+)
