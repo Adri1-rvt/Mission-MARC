@@ -7,6 +7,7 @@
 #define UNTITLED1_MOVES_H
 
 #include "loc.h"
+#include <time.h>
 
 
 /**==========PROTOTYPES DES FONCTIONS==========*/
@@ -27,7 +28,8 @@ typedef enum e_move
     B_10, // Backward 10 m
     T_LEFT, // Turn left (+90°)
     T_RIGHT, // Turn right (-90°)
-    U_TURN
+    U_TURN,
+    INITIAL_POS
 } t_move;
 
 /**
@@ -52,6 +54,8 @@ t_localisation move(t_localisation, t_move);
  * @return none
  */
 void updateLocalisation(t_localisation *, t_move);
+
+t_move *getRandomMoves(int N);
 
 
 /**==========DIRECTIVES DU PREPROCESSEUR==========*/
